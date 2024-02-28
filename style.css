@@ -1,0 +1,47 @@
+body{
+    background-image: url(https://espanaservice.ru/images/publications/content/Statii/CampNou/Camp%20Nou.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-top: 5%;
+}
+#gamezone{
+    border: 1px solid black;
+    background-color: brown ;
+    height: 350px;
+    width: 650px;
+    margin-left: 33%;
+    margin-top: 15px;
+    background: url(https://images.rtl.fr/~c/2000v2000/rtl/www/1086112-zlatan-ibrahimovic-sous-les-couleurs-du-barca-le-20-octobre-2009.jpg);
+    background-position: center;
+}
+.character{
+    background-color: orange;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    /*Внешний вид*/
+    background-image: url(https://i.pinimg.com/736x/83/00/f8/8300f8c89af341866c965bfb9c82f0dd.jpg);
+    background-size: cover;
+    background-position: center;
+    /* В начале не отображается*/
+    display: none;
+
+}
+.characterFake{
+    background-image: url(https://a.espncdn.com/photo/2019/0910/r596059_1296x729_16-9.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.hidden{
+    display: none;
+}
+.visible{
+    display: block;
+}
+/*При наведении*/
+.character:hover{
+    scale: 1.1;  /*увеличивается размер*/
+}
